@@ -2,7 +2,7 @@
 
 **Materia:** Estructura de Datos Lineales  
 **Actividad #2:** Colas dinámicas - Simulación  
-**Estudiante:** María Ángel Parra Garzón 
+**Estudiante:** María Ángel Parra Garzón. 1072960488  
 **Fecha:** 22-04-2025
 
 ---
