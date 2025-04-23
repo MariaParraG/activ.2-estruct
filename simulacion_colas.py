@@ -1,3 +1,5 @@
+# Maria Parra. 1072960488
+
 import random
 import matplotlib.pyplot as plt
 from collections import deque
