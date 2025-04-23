@@ -1,4 +1,4 @@
-# 🧪 Simulación de Sistema de Gestión de Tareas con Colas de Prioridad
+#  Simulación de Sistema de Gestión de Tareas con Colas de Prioridad
 
 **Materia:** Estructura de Datos Lineales  
 **Actividad #2:** Colas dinámicas - Simulación  
@@ -7,13 +7,13 @@
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Modelar un sistema de gestión de tareas utilizando tres colas separadas con diferentes niveles de prioridad: alta, media y baja. Analizar el comportamiento bajo diferentes configuraciones de llegada y atención de tareas.
 
 ---
 
-## ⚙️ Lógica de Simulación
+##  Lógica de Simulación
 
 La simulación implementa un sistema FIFO (First-In, First-Out) con **tres colas independientes** para tareas de prioridad alta, media y baja. Cada segundo se simula:
 
@@ -23,7 +23,7 @@ La simulación implementa un sistema FIFO (First-In, First-Out) con **tres colas
 
 ---
 
-## 🖼️ Interfaz Gráfica
+##  Interfaz Gráfica
 
 Como Google Colab no soporta interfaces GUI tradicionales (`Tkinter`), se utiliza `matplotlib` para crear una **visualización por consola** (gráfico de barras) que se actualiza dinámicamente cada segundo.
 
@@ -31,7 +31,7 @@ Esto permite ver en tiempo real cómo las colas se llenan o vacían durante los 
 
 ---
 
-## 🔁 Simulación 1 - Configuración Equilibrada
+##  Simulación 1 - Configuración Equilibrada
 
 **Parámetros:**
 - Llegada: Alta `0.6`, Media `0.4`, Baja `0.2`
@@ -47,7 +47,7 @@ Esto permite ver en tiempo real cómo las colas se llenan o vacían durante los 
 
 ---
 
-## 🔁 Simulación 2 - Enfoque Preferencial
+##  Simulación 2 - Enfoque Preferencial
 
 **Parámetros:**
 - Llegada: Alta `0.7`, Media `0.2`, Baja `0.1`
@@ -63,7 +63,7 @@ Esto permite ver en tiempo real cómo las colas se llenan o vacían durante los 
 
 ---
 
-## 🔁 Simulación 3 - Atención Balanceada
+##  Simulación 3 - Atención Balanceada
 
 **Parámetros:**
 - Llegada: Alta `0.5`, Media `0.5`, Baja `0.5`
@@ -79,7 +79,7 @@ Esto permite ver en tiempo real cómo las colas se llenan o vacían durante los 
 
 ---
 
-## 🧠 Conclusión Final Comparativa
+##  Conclusión Final Comparativa
 
 La **Simulación 3** fue la más equilibrada.  
 La **Simulación 2** es excelente si se desea máxima eficiencia en tareas críticas.  
@@ -87,7 +87,7 @@ La **Simulación 1** ofrece un punto medio pero deja rezagadas a las tareas de b
 
 ---
 
-## 📄 Documentación del Código
+##  Documentación del Código
 
 ### Estructura Principal
 
